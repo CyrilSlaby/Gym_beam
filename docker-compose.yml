@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  ml-environment:
+    image: my-ml-env  
+    build: .
+    ports:
+      - "8888:8888"  # Mapovanie portov pre Jupyter Notebook
+    volumes:
+      - .:/app  # Mount aktuálneho adresára do kontajnera
+    command: jupyter notebook --ip=0.0.0.0 --allow-root --no-browser

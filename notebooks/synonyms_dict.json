@@ -1,0 +1,20 @@
+{
+    "televízia": [
+        "tv",
+        "televízor",
+        "telka"
+    ],
+    "notebook": [
+        "laptop",
+        "počítač",
+        "pc"
+    ],
+    "chytrý telefón": [
+        "smartphone",
+        "mobil"
+    ],
+    "slúchadlá": [
+        "headphones",
+        "earphones"
+    ]
+}
